@@ -1,0 +1,66 @@
+version: 1
+units:
+  meters_per_unit: 1.0
+  kilograms_per_unit: 1.0
+  up_axis: Z
+parity:
+  mass_rel: 1.0e-5
+  com_abs_m: 1.0e-6
+  inertia_rel_frobenius: 1.0e-4
+friction:
+  interval_slack: 0.01
+restitution:
+  warn_if_usd_above: 0.05
+geometry:
+  degenerate_face_area_m2: 1.0e-12
+  phantom_distance_m: 0.002
+  phantom_area_fraction_warn: 0.02
+  mjcf_source_tol_m: 0.001
+  surface_samples: 4000
+mass:
+  density_ratio_pass: 0.05
+  density_ratio_warn: 0.20
+  thin_wall_classes: [beverage_can]
+inertia:
+  triangle_rel_slack: 1.0e-6
+  k2_rel_fail: 0.15
+com:
+  rel_bbox_diag_warn: 0.02
+max_mass:
+  equals_mass_rel: 0.01
+  equals_mass_abs_kg: 5.0e-5
+  water_density: 1000.0
+  cavity_rel_warn: 0.25
+dimensions:
+  can_diameter_mm: [66.0]
+  can_slim_diameter_mm: [53.0, 58.5]
+  can_heights_mm: [115, 122, 149, 168, 189]
+  can_height_tol_mm: 3.0
+  can_diameter_tol_mm: 1.5
+  mug_body_diameter_mm: [65.0, 95.0]
+  mug_body_height_mm: [80.0, 130.0]
+  mug_tol_mm: 2.0
+  jar_capacities_ml: [200, 370, 500, 720, 1000]
+  jar_capacity_rel_tol: 0.15
+sim:
+  drop_height_m: 0.05
+  drop_duration_s: 3.0
+  random_orientations: 8
+  settle_lin_mps: 0.005
+  settle_ang_rps: 0.05
+  energy_gain_rel: 0.01
+  penetration_abs_m: 0.0005
+  jitter_window_s: 0.5
+  jitter_lin_rms_mps: 0.001
+  incline_max_deg: 45.0
+  incline_tol_deg: 0.1
+  incline_slide_m: 0.002
+  incline_hold_s: 1.0
+  friction_angle_fail_deg: 2.0
+  roll_angle_deg: 10.0
+  roll_ratio_rel_fail: 0.10
+  probe_drop_above_rim_m: 0.03
+  probe_radius_min_m: 0.005
+  probe_radius_max_m: 0.012
+  probe_radius_frac: 0.3
+  timesteps: [0.0005, 0.001, 0.002]

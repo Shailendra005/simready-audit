@@ -1,0 +1,1315 @@
+{
+ "n_total": 149,
+ "n": {
+  "beverage_can": 34,
+  "glass_jar": 40,
+  "mug": 75
+ },
+ "table": [
+  {
+   "id": "A1",
+   "title": "Stage units and up axis",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A2",
+   "title": "Physics schema present and valid",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A3",
+   "title": "MJCF compiles in MuJoCo",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A4",
+   "title": "Mass parity USD vs MJCF",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A5",
+   "title": "Centre-of-mass parity USD vs MJCF",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A6",
+   "title": "Inertia tensor parity USD vs MJCF",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A7",
+   "title": "MJCF friction within USD static/dynamic interval",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 75,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A8",
+   "title": "Restitution carried into MJCF contact",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 34,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 40,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A9",
+   "title": "Collider approximation intent vs MJCF geoms",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 34,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 40,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 75,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "A10",
+   "title": "max_mass_kg matches documented meaning (cavity x water)",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 34,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 40,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 75,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "B1",
+   "title": "Collider is closed and 2-manifold",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "B2",
+   "title": "Collider winding consistent and outward",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "B3",
+   "title": "No degenerate collider faces",
+   "beverage_can": {
+    "pass": 32,
+    "warn": 2,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 39,
+    "warn": 1,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "B4",
+   "title": "Collider components",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 34,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 40,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 75,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "B5",
+   "title": "MuJoCo effective collider has no phantom surface",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 34,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 2,
+    "warn": 38,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 75,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "B6",
+   "title": "MJCF collision geometry sits on the USD collider",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "C1",
+   "title": "Dimensions match the dataset card",
+   "beverage_can": {
+    "pass": 20,
+    "warn": 3,
+    "fail": 0,
+    "info": 11,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 30,
+    "warn": 10,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 48,
+    "warn": 27,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "C2",
+   "title": "Mass equals density x collider volume",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 34,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 63,
+    "warn": 12,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "C3",
+   "title": "Mass plausible against cited real-world values",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 34,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 40,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 75,
+    "n": 75
+   }
+  },
+  {
+   "id": "C4",
+   "title": "Inertia is physically valid",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "C5",
+   "title": "Inertia consistent with the mass distribution",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 34,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "C6",
+   "title": "Centre of mass consistent with geometry",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 62,
+    "warn": 13,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "D1",
+   "title": "Drop test: stable, no energy gain, no sinking",
+   "beverage_can": {
+    "pass": 33,
+    "warn": 1,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 75,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "D2",
+   "title": "Timestep sensitivity (0.5/1/2 ms)",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 73,
+    "warn": 2,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "D3",
+   "title": "Slide angle matches authored friction",
+   "beverage_can": {
+    "pass": 34,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 40,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 0,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 75,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  },
+  {
+   "id": "D4",
+   "title": "Can rolling acceleration",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 34,
+    "skip": 0,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 40,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 75,
+    "n": 75
+   }
+  },
+  {
+   "id": "D5",
+   "title": "Cavity probe: a ball dropped into the cup enters it",
+   "beverage_can": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 34,
+    "n": 34
+   },
+   "glass_jar": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "info": 0,
+    "skip": 40,
+    "n": 40
+   },
+   "mug": {
+    "pass": 0,
+    "warn": 0,
+    "fail": 75,
+    "info": 0,
+    "skip": 0,
+    "n": 75
+   }
+  }
+ ],
+ "tests": 33,
+ "run": {
+  "assets": 149,
+  "config_frozen": true,
+  "config_sha256": "f41e25c75093d5a2fd7917e39b8f731567c877e71ae588ca14f59c0501eefa09",
+  "dataset": "projectsim/bottles-and-containers",
+  "dataset_files": 1445,
+  "dataset_revision": "2d5aa958dd926b890cdf3436f026c2d27b6d695b",
+  "elapsed_s": 30.0,
+  "git_commit": "caff43c68b15f8cbd723285ac3c33bfd5cab6b04",
+  "results_sha256": "40c41fe77cc0d2f96513b2fef56f4fe465dcbe2fad4ee5c4385c500e18d8b6f9",
+  "static_only": false,
+  "uv_lock_sha256": "5764c8e687a73663e32b406f2616a51a846cf5bc96d8cddab13d53fb1c2d4e0e",
+  "versions": {
+   "coacd": "1.0.14",
+   "manifold3d": "3.5.4",
+   "mujoco": "3.15.0",
+   "numpy": "2.5.3",
+   "python": "3.12.13",
+   "scipy": "1.18.1",
+   "trimesh": "5.1.1",
+   "usd-core": "26.8"
+  }
+ },
+ "mutation": {
+  "assets": 30,
+  "types": 19,
+  "perfect": 17,
+  "inv_changes": 0,
+  "inv_comparisons": 2268,
+  "rows": [
+   {
+    "ci95": [
+     0.8754409628553642,
+     1.0
+    ],
+    "detected": 27,
+    "eligible": 27,
+    "excluded_already_failing": 3,
+    "mutation": "scale_x10",
+    "rate": 1.0,
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "ci95": [
+     0.8754409628553642,
+     1.0
+    ],
+    "detected": 27,
+    "eligible": 27,
+    "excluded_already_failing": 3,
+    "mutation": "scale_x0.1",
+    "rate": 1.0,
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "units_cm",
+    "rate": 1.0,
+    "targets": [
+     "A1"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "up_axis_y",
+    "rate": 1.0,
+    "targets": [
+     "A1"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "delete_1pct_faces",
+    "rate": 1.0,
+    "targets": [
+     "B1"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "flip_10pct_faces",
+    "rate": 1.0,
+    "targets": [
+     "B2"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "flip_all_faces",
+    "rate": 1.0,
+    "targets": [
+     "B2"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "degenerate_faces",
+    "rate": 1.0,
+    "targets": [
+     "B3"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "mass_x10_usd_only",
+    "rate": 1.0,
+    "targets": [
+     "A4",
+     "A6"
+    ]
+   },
+   {
+    "ci95": [
+     0.4877972581383026,
+     0.807697044731538
+    ],
+    "detected": 20,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "mass_x2_both",
+    "rate": 0.6666666666666666,
+    "targets": [
+     "C2"
+    ]
+   },
+   {
+    "ci95": [
+     0.8793527963418923,
+     1.0
+    ],
+    "detected": 28,
+    "eligible": 28,
+    "excluded_already_failing": 2,
+    "mutation": "com_offset_both_10mm",
+    "rate": 1.0,
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "com_offset_mjcf_1mm",
+    "rate": 1.0,
+    "targets": [
+     "A5"
+    ]
+   },
+   {
+    "ci95": [
+     0.8388698745050667,
+     0.9999999999999998
+    ],
+    "detected": 20,
+    "eligible": 20,
+    "excluded_already_failing": 10,
+    "mutation": "inertia_x2_both",
+    "rate": 1.0,
+    "targets": [
+     "C5"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "inertia_mjcf_only_x1.1",
+    "rate": 1.0,
+    "targets": [
+     "A6"
+    ]
+   },
+   {
+    "ci95": [
+     0.8388698745050667,
+     0.9999999999999998
+    ],
+    "detected": 20,
+    "eligible": 20,
+    "excluded_already_failing": 10,
+    "mutation": "friction_mjcf_0.9",
+    "rate": 1.0,
+    "targets": [
+     "A7"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "collider_offset_mjcf_5mm",
+    "rate": 1.0,
+    "targets": [
+     "B6"
+    ]
+   },
+   {
+    "ci95": [
+     null,
+     null
+    ],
+    "detected": 0,
+    "eligible": 0,
+    "excluded_already_failing": 30,
+    "mutation": "max_mass_equals_mass",
+    "rate": null,
+    "targets": [
+     "A10"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "restitution_1.5",
+    "rate": 1.0,
+    "targets": [
+     "A2"
+    ]
+   },
+   {
+    "ci95": [
+     0.886482908609522,
+     1.0
+    ],
+    "detected": 30,
+    "eligible": 30,
+    "excluded_already_failing": 0,
+    "mutation": "unbind_physics_material",
+    "rate": 1.0,
+    "targets": [
+     "A2"
+    ]
+   }
+  ],
+  "sweeps": [
+   {
+    "detected": 6,
+    "eligible": 27,
+    "magnitude": 1.02,
+    "rate": 0.2222222222222222,
+    "sweep": "scale",
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "detected": 26,
+    "eligible": 27,
+    "magnitude": 1.05,
+    "rate": 0.9629629629629629,
+    "sweep": "scale",
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "detected": 26,
+    "eligible": 27,
+    "magnitude": 1.1,
+    "rate": 0.9629629629629629,
+    "sweep": "scale",
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "detected": 26,
+    "eligible": 27,
+    "magnitude": 1.25,
+    "rate": 0.9629629629629629,
+    "sweep": "scale",
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "detected": 27,
+    "eligible": 27,
+    "magnitude": 2.0,
+    "rate": 1.0,
+    "sweep": "scale",
+    "targets": [
+     "C1",
+     "C2"
+    ]
+   },
+   {
+    "detected": 0,
+    "eligible": 28,
+    "magnitude": 0.0005,
+    "rate": 0.0,
+    "sweep": "com_offset_both",
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "detected": 0,
+    "eligible": 28,
+    "magnitude": 0.001,
+    "rate": 0.0,
+    "sweep": "com_offset_both",
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "detected": 0,
+    "eligible": 28,
+    "magnitude": 0.002,
+    "rate": 0.0,
+    "sweep": "com_offset_both",
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "detected": 28,
+    "eligible": 28,
+    "magnitude": 0.005,
+    "rate": 1.0,
+    "sweep": "com_offset_both",
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "detected": 28,
+    "eligible": 28,
+    "magnitude": 0.01,
+    "rate": 1.0,
+    "sweep": "com_offset_both",
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "detected": 28,
+    "eligible": 28,
+    "magnitude": 0.02,
+    "rate": 1.0,
+    "sweep": "com_offset_both",
+    "targets": [
+     "C6"
+    ]
+   },
+   {
+    "detected": 1,
+    "eligible": 30,
+    "magnitude": 1.02,
+    "rate": 0.03333333333333333,
+    "sweep": "mass_both",
+    "targets": [
+     "C2"
+    ]
+   },
+   {
+    "detected": 5,
+    "eligible": 30,
+    "magnitude": 1.05,
+    "rate": 0.16666666666666666,
+    "sweep": "mass_both",
+    "targets": [
+     "C2"
+    ]
+   },
+   {
+    "detected": 16,
+    "eligible": 30,
+    "magnitude": 1.1,
+    "rate": 0.5333333333333333,
+    "sweep": "mass_both",
+    "targets": [
+     "C2"
+    ]
+   },
+   {
+    "detected": 20,
+    "eligible": 30,
+    "magnitude": 1.2,
+    "rate": 0.6666666666666666,
+    "sweep": "mass_both",
+    "targets": [
+     "C2"
+    ]
+   },
+   {
+    "detected": 20,
+    "eligible": 30,
+    "magnitude": 1.5,
+    "rate": 0.6666666666666666,
+    "sweep": "mass_both",
+    "targets": [
+     "C2"
+    ]
+   },
+   {
+    "detected": 0,
+    "eligible": 20,
+    "magnitude": 1.05,
+    "rate": 0.0,
+    "sweep": "inertia_scale_both",
+    "targets": [
+     "C5"
+    ]
+   },
+   {
+    "detected": 0,
+    "eligible": 20,
+    "magnitude": 1.1,
+    "rate": 0.0,
+    "sweep": "inertia_scale_both",
+    "targets": [
+     "C5"
+    ]
+   },
+   {
+    "detected": 18,
+    "eligible": 20,
+    "magnitude": 1.2,
+    "rate": 0.9,
+    "sweep": "inertia_scale_both",
+    "targets": [
+     "C5"
+    ]
+   },
+   {
+    "detected": 20,
+    "eligible": 20,
+    "magnitude": 1.5,
+    "rate": 1.0,
+    "sweep": "inertia_scale_both",
+    "targets": [
+     "C5"
+    ]
+   },
+   {
+    "detected": 0,
+    "eligible": 30,
+    "magnitude": 0.0005,
+    "rate": 0.0,
+    "sweep": "collider_offset_mjcf",
+    "targets": [
+     "B6"
+    ]
+   },
+   {
+    "detected": 30,
+    "eligible": 30,
+    "magnitude": 0.0015,
+    "rate": 1.0,
+    "sweep": "collider_offset_mjcf",
+    "targets": [
+     "B6"
+    ]
+   },
+   {
+    "detected": 30,
+    "eligible": 30,
+    "magnitude": 0.003,
+    "rate": 1.0,
+    "sweep": "collider_offset_mjcf",
+    "targets": [
+     "B6"
+    ]
+   },
+   {
+    "detected": 30,
+    "eligible": 30,
+    "magnitude": 0.005,
+    "rate": 1.0,
+    "sweep": "collider_offset_mjcf",
+    "targets": [
+     "B6"
+    ]
+   }
+  ]
+ }
+}

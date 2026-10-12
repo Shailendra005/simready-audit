@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.log
+/data/
+/results/
+/reports/private/
+/work/
+/notes/
+/private/

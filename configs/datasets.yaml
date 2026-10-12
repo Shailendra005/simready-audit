@@ -1,0 +1,28 @@
+bottles-and-containers:
+  repo_id: projectsim/bottles-and-containers
+  revision: 2d5aa958dd926b890cdf3436f026c2d27b6d695b
+  allow_patterns:
+    - "assets/*/*/*.usda"
+    - "assets/*/*/mjcf/*.xml"
+    - "assets/*/*/mjcf/collision/*.obj"
+    - "assets/*/*/mjcf/visuals/*.obj"
+    - "assets/*/*/mjcf/visuals/textures/*.png"
+    - "README.md"
+yam-authored:
+  repo_id: projectsim/yam-real-to-sim-assets
+  revision: bc56a211d00914160ef6297935598d8e8f16dc2f
+  allow_patterns:
+    - "assets/*/*.usda"
+    - "assets/*/*.json"
+    - "objects.csv"
+    - "README.md"
+yam-default:
+  repo_id: projectsim/yam-real-to-sim-assets-default
+  revision: 8bdfdedf9834a407f2e5db26a8c77abd685b4828
+  allow_patterns:
+    - "assets/*/*.usda"
+    - "assets/*/*.json"
+    - "objects.csv"
+    - "scales_by_eye.json"
+    - "photo_to_asset_mapping.json"
+    - "README.md"

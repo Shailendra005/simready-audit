@@ -1,0 +1,125 @@
+{
+ "source": "https://github.com/Kaedim/yam-sim-harness-oss/blob/c44079e895c3bd4cec854ccdb4533180edc632fb/docs/RESULTS.md",
+ "cells": [
+  {
+   "task": "Bottles in bins",
+   "max": 20.0,
+   "policy": "MolmoAct2",
+   "real": 9.5,
+   "authored": 5.95,
+   "authored_consistent": true,
+   "default": 6.25,
+   "default_consistent": true,
+   "authored_gap_pp": 17.75,
+   "default_gap_pp": 16.25
+  },
+  {
+   "task": "Bottles in bins",
+   "max": 20.0,
+   "policy": "pi0.5",
+   "real": 10.05,
+   "authored": 9.4,
+   "authored_consistent": true,
+   "default": 8.9,
+   "default_consistent": true,
+   "authored_gap_pp": 3.25,
+   "default_gap_pp": 5.75
+  },
+  {
+   "task": "Stack bowls",
+   "max": 50.0,
+   "policy": "MolmoAct2",
+   "real": 29.75,
+   "authored": 25.75,
+   "authored_consistent": true,
+   "default": 16.75,
+   "default_consistent": false,
+   "authored_gap_pp": 8.0,
+   "default_gap_pp": 26.0
+  },
+  {
+   "task": "Stack bowls",
+   "max": 50.0,
+   "policy": "pi0.5",
+   "real": 29.25,
+   "authored": 30.5,
+   "authored_consistent": true,
+   "default": 23.0,
+   "default_consistent": true,
+   "authored_gap_pp": 2.5,
+   "default_gap_pp": 12.5
+  },
+  {
+   "task": "Stack blocks",
+   "max": 30.0,
+   "policy": "MolmoAct2",
+   "real": 3.5,
+   "authored": 7.75,
+   "authored_consistent": false,
+   "default": 12.75,
+   "default_consistent": false,
+   "authored_gap_pp": 14.17,
+   "default_gap_pp": 30.83
+  },
+  {
+   "task": "Stack blocks",
+   "max": 30.0,
+   "policy": "pi0.5",
+   "real": 6.0,
+   "authored": 5.75,
+   "authored_consistent": true,
+   "default": 5.5,
+   "default_consistent": true,
+   "authored_gap_pp": 0.83,
+   "default_gap_pp": 1.67
+  },
+  {
+   "task": "Move latte cup",
+   "max": 10.0,
+   "policy": "MolmoAct2",
+   "real": 5.9,
+   "authored": 5.0,
+   "authored_consistent": true,
+   "default": 3.75,
+   "default_consistent": false,
+   "authored_gap_pp": 9.0,
+   "default_gap_pp": 21.5
+  },
+  {
+   "task": "Move latte cup",
+   "max": 10.0,
+   "policy": "pi0.5",
+   "real": 3.65,
+   "authored": 3.75,
+   "authored_consistent": true,
+   "default": 0.25,
+   "default_consistent": false,
+   "authored_gap_pp": 1.0,
+   "default_gap_pp": 34.0
+  },
+  {
+   "task": "Clear table",
+   "max": 70.0,
+   "policy": "MolmoAct2",
+   "real": 45.35,
+   "authored": 42.5,
+   "authored_consistent": true,
+   "default": 38.65,
+   "default_consistent": true,
+   "authored_gap_pp": 4.07,
+   "default_gap_pp": 9.57
+  },
+  {
+   "task": "Clear table",
+   "max": 70.0,
+   "policy": "pi0.5",
+   "real": 47.8,
+   "authored": 41.4,
+   "authored_consistent": true,
+   "default": 35.7,
+   "default_consistent": false,
+   "authored_gap_pp": 9.14,
+   "default_gap_pp": 17.29
+  }
+ ]
+}
