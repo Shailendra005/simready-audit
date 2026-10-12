@@ -40,7 +40,7 @@ Thresholds live in [`configs/thresholds.v1.yaml`](configs/thresholds.v1.yaml). T
 
 ## Results on Bottles & Containers
 
-Revision `2d5aa958dd92`, 149 assets, config `f41e25c75093`, 30.0 s on a laptop (8 workers).
+Revision `2d5aa958dd92`, 149 assets, config `f41e25c75093`, 27.9 s on a laptop (8 workers).
 
 | Check | Cans (34) | Jars (40) | Mugs (75) |
 |---|---|---|---|
